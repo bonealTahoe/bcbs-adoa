@@ -1,7 +1,7 @@
 @charset "utf-8";
 /****************************************************
   
-  weo3 - last updated 08.19.14
+  weo3 - last updated 08.31.14
 
   0. Design Notes
   1. HTML elements
@@ -10,7 +10,6 @@
   4. Modular / Icons
   5. General
   6. Queries
-  7. Yo Fonts Mama
 
 ****************************************************/
 
@@ -18,7 +17,7 @@
   0. Design Notes
 ****************************************************/
 
-  /* boom shakalaka boom. all your layout belong to us. */
+  /* this intentionally blank */
 
 
 
@@ -559,7 +558,7 @@ a:hover { text-decoration: underline; }
 
 .logo-special {
   position: absolute;
-  right: 10em;
+  right: 10%;
   top: 2em;
 }
 
@@ -649,11 +648,6 @@ a:hover { text-decoration: underline; }
 
 }
 
-
-
-/****************************************************
-  7. Yo Fonts Mama
-****************************************************/
 
 
 
