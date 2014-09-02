@@ -164,7 +164,7 @@ a:hover { text-decoration: underline; }
 .nav-main li {
   float: left;
   position: relative;
-  width: 16.666667%;   /* desired width */
+  width: 20%;   /* 100/5 */
 }
 
 .nav-main li:before {
