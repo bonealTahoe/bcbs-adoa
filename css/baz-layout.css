@@ -174,7 +174,7 @@ a:hover { text-decoration: underline; }
 }
 
 .nav-main li .nav-main-inner {
-  bottom: 0;
+  bottom: -0.8em;
   left: 0;
   position: absolute;
   top: 0;
@@ -194,11 +194,12 @@ a:hover { text-decoration: underline; }
   position: absolute;
   color: #005AAB;
   width: 100%;
-  height: 110%;
+  height: 105%;
   text-align: center;
   text-transform: uppercase;
   font-size: 0.55rem;
   text-decoration: none; /** added to overwrite foundation a tag 5-7-2014 **/
+  line-height: 0.9em;
 }
 
 .nav-main-inner a {
@@ -207,6 +208,11 @@ a:hover { text-decoration: underline; }
   height: 110%;
 }
 
+.nav-main-inner a:hover, .nav-main-inner a.activated {
+  background-color: #005AAB;
+  background-color: rgba(0, 90, 171, 0.1);
+  border-radius: 0.5em;
+}
 
 .nav-main-inner a.activated {
   cursor: default;
@@ -570,9 +576,21 @@ a:hover { text-decoration: underline; }
   z-index: 999;
 }
 
-.cta-group-item {
-
+.cta-group-item-header {
+  min-height: 3em;
+  margin: 0.25em 0;
+  border-radius: 1em;
 }
+
+  .cta-group-item-header:hover {
+    background: #73C5E8;
+    cursor: pointer;
+  }
+
+  .cta-group-item-header > .ui-icon {
+    top: 1em;
+  }
+
 
 .cta-group-content {
   border-radius: 1em;
